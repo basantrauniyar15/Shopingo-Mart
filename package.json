@@ -8,7 +8,7 @@
     "build": "npx vite build",
     "preview": "vite preview",
     "lint": "eslint .",
-    "vercel-build": "rm -rf node_modules && npm install && npm run build"
+    "vercel-build": "npm install && npm run build"
   },
   "dependencies": {
     "lucide-react": "^0.344.0",
@@ -34,11 +34,4 @@
   "engines": {
     "node": "18.x"
   }
-  "scripts": {
-  "dev": "vite",
-  "build": "npx vite build",
-  "preview": "vite preview",
-  "lint": "eslint .",
-  "vercel-build": "npm install && npm run build"
- }
 }
