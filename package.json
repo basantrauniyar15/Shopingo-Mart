@@ -34,4 +34,11 @@
   "engines": {
     "node": "18.x"
   }
+  "scripts": {
+  "dev": "vite",
+  "build": "npx vite build",
+  "preview": "vite preview",
+  "lint": "eslint .",
+  "vercel-build": "npm install && npm run build"
+ }
 }
